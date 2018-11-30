@@ -137,7 +137,6 @@ We need to create an interface to map the functions in the DLL, then we can acce
 我们需要创建一个interface来映射DLL中的函数，之后我们可以通过interface的实例来访问DLL中的函数。
 
 ```
-/*
 
 package com.mycompany.mavenproject1;
 
@@ -162,7 +161,6 @@ We create a new App class, as the entry class of the main method, do not need ex
 我们新建一个App类，作为main方法的入口类，在main方法中不需要多余的操作，只需要调用即可，在这里我们调用Aes128Des 方法，同时传如iu3riubbku0dsia0， 890795015b67204ab42d16f9be3c7f19563f0e82dc992ff74a52e118d36e58ad394d87ea2a9ace75d9446eb91f6b1d2144ac343a6e6db973d41c7808ad26e6f2，可以看到控制台输出：{"code": 449, "message": "The name is mismatching."}
 
 ```
-/*
 
 package com.mycompany.mavenproject1;
 
@@ -183,7 +181,7 @@ We first use JNA to build a C structure type, then the problem comes, JNA char c
 
 
 ```
-/*
+
 
 package com.mycompany.mavenproject1;
 
